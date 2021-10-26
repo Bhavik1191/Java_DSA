@@ -1,3 +1,5 @@
+package SearchAlgos;
+
 public class BinarySearchExample {
 
     public static void main(String[] args)

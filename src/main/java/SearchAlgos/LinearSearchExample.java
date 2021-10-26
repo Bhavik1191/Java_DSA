@@ -1,3 +1,5 @@
+package SearchAlgos;
+
 public class LinearSearchExample {
 
     public static void main(String[] args)
