@@ -7,7 +7,7 @@ public class BubbleSortExample {
     public static void main(String[] args)
     {
         //Sort the given integer array with Bubble sort method
-        int[] a = {6};
+        int[] a = {6,9,10,0,0,6,7,8};
         System.out.println(Arrays.toString(bubbleSort(a)));
     }
 
