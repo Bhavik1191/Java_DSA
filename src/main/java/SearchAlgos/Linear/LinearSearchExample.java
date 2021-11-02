@@ -1,4 +1,4 @@
-package SearchAlgos;
+package SearchAlgos.Linear;
 
 public class LinearSearchExample {
 
@@ -12,6 +12,8 @@ public class LinearSearchExample {
         System.out.println(index);
     }
 
+    //Search in the array : Return the index if item found
+    //Return -1 if item not found
     public static int findIndex(int[] array, int expectedValue)
     {
         for(int i =0; i<array.length; i++)
