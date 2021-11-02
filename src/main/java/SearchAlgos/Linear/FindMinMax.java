@@ -16,7 +16,8 @@ public class FindMinMax {
     //If array element is max than the reference variable then change the reference
     private static Integer findMax(int[] array) {
 
-        int max = array[0];
+        // Value should be greater or equal to Integer.MIN_VALUE
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < array.length; i++) {
             if(array[i]>max)
                 max=array[i];
@@ -28,7 +29,9 @@ public class FindMinMax {
     //Then iterate each element of the array and compare with Reference variable
     //If array element is min than the reference variable then change the reference
     private static Integer findMin(int[] array) {
-        int min = array[0];
+
+        // Value should be greater or equal to Integer.MAX_VALUE
+        int min = Integer.MAX_VALUE;
         for (int i = 0; i < array.length; i++) {
             if(array[i]<min)
                 min=array[i];
