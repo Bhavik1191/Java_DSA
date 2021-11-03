@@ -31,9 +31,10 @@ public class PrintEvenDigits {
         //1st- Identify how many digits are present
         int digits = numberOfDigitsWithNum(num);
         int digits2 = numberOfDigitsWithString(num);
+        int digits3 = numberOfDigitsWithMath(num);
 
         //2nd - Verify if the digits are even or odd
-        if(digits2 % 2 == 0 )
+        if(digits3 % 2 == 0 )
             return true;
         return false;
     }
@@ -53,5 +54,10 @@ public class PrintEvenDigits {
             digits = digits/10;
         }
         return digits;
+    }
+
+    // Get digit count with Math.log10 function
+    private static int numberOfDigitsWithMath(int num) {
+        return (int)(Math.log10(num))+1;
     }
 }
