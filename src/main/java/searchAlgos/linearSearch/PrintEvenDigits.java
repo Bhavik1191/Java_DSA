@@ -1,6 +1,4 @@
-package SearchAlgos.Linear;
-
-import sun.lwawt.macosx.CSystemTray;
+package searchAlgos.linearSearch;
 
 public class PrintEvenDigits {
 

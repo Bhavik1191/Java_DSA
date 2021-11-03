@@ -1,6 +1,4 @@
-package SortingAlgos;
-
-import com.sun.scenario.effect.impl.sw.java.JSWColorAdjustPeer;
+package sortingAlgos;
 
 import java.util.Arrays;
 

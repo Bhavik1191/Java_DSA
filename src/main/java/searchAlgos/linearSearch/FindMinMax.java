@@ -1,4 +1,4 @@
-package SearchAlgos.Linear;
+package searchAlgos.linearSearch;
 
 import java.util.Arrays;
 

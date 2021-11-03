@@ -1,6 +1,6 @@
-package SearchAlgos;
+package searchAlgos.binarySearch;
 
-public class BinarySearchExample {
+public class BinarySearchWithRecurssion {
 
     public static void main(String[] args)
     {

@@ -1,4 +1,4 @@
-package SearchAlgos.Linear;
+package searchAlgos.linearSearch;
 
 public class LinearSearchExample {
 
