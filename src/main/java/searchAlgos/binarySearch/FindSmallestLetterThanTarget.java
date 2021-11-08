@@ -32,7 +32,6 @@ public class FindSmallestLetterThanTarget {
             //Skipping the '=' condition because in both the condition we have to increment the start
         }
 
-
         //As letters are wrap around, if target is not in the range then we will always return the first element of array.
         if(start>letters.length-1)
             return letters[0];
