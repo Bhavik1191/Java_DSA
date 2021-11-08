@@ -18,25 +18,18 @@ public class FindPositionInInfiniteArray {
         //So for that we will start with 2 element array and then we will double the bunch size
 
 
-        Boolean element_found = false;
         int start = 0;
         int end = 1;
-        int index = -1;
 
-        while (element_found==false)
+        while (target>arr[end])
         {
-            if(target<=arr[end] && target>=arr[start])
-            {
-                element_found = true;
-                index = findIndex(arr,target,start,end);
-            }
-            else {
-                int temp = start;
-                start=end+1;
-                end = start + (end-temp)*2;  //Here we are increasing the array sixe after every occurrence of loop if element not found in range.
-            }
+           int temp = start;
+           start=end+1;
+           end = end + (end-temp+1)*2;  //Here we are increasing the array size after every occurrence of loop if element not found in range.
+
         }
-        return index;
+        return findIndex(arr,target,start,end);
+
     }
 
     private static int findIndex(int[] arr, int target,int start, int end)
