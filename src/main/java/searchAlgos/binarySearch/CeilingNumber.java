@@ -10,8 +10,8 @@ public class CeilingNumber {
      */
     public static void main(String[] args) {
 
-        int[] arr = {2,4,7,9,13,14,16,18};
-        int target = 0;
+        int[] arr = {2,2,2,2,2,4,7,9,13,14,16,18};
+        int target = 1;
 
 
         System.out.println("Ceiling of the given number is : "+ getCeilingNumber(arr, target,0,arr.length-1 ));
@@ -23,13 +23,13 @@ public class CeilingNumber {
         int last = 0;
 
         //what if target is greater than greatest number in array
-        if(target>arr[arr.length-1])
-            return -1;
+//        if(target>arr[arr.length-1])
+//            return -1;
 
 
         while (start <= end)
         {
-            middle = end-start/2;
+            middle = (end+start)/2;
             if(target>arr[middle])
             {
                 start = middle+1;

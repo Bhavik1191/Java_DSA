@@ -21,7 +21,7 @@ public class FloorNumbers {
 
             while (start <= end)
             {
-                middle = end-start/2;
+                middle = (end+start)/2;
                 if(target>arr[middle])
                 {
                     start = middle+1;
