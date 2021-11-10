@@ -23,6 +23,13 @@ public class SearchInRotatedArray {
         int pivot = findPivot(nums);
 
 
+        /**
+         * In case of finding rotation counts of an array. Just add the pivot+1
+         * Pivot is the highest number in array so the we can understand that pivot's position shows the rotation count
+         * if pivot=-1 then array is not rotated
+         *
+         * rotation count = pivot+1;
+         */
 
         //if pivot not found then its not rotated sorted array
         //So apply normal binary search in full array
