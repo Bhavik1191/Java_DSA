@@ -1,4 +1,4 @@
-package searchAlgos.linearSearch;
+package searchAlgos.binarySearch;
 
 public class FindTheMountainArray {
     public static void main(String[] args) {
