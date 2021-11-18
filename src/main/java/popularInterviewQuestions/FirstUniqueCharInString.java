@@ -21,6 +21,7 @@ public class FirstUniqueCharInString {
         // build hash map : character and how often it appears
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
+            s.lastIndexOf(s);
             count.put(c, count.getOrDefault(c, 0) + 1);
         }
 
@@ -28,6 +29,7 @@ public class FirstUniqueCharInString {
         for (int i = 0; i < n; i++) {
             if (count.get(s.charAt(i)) == 1)
                 return i;
+
         }
         return -1;
     }
