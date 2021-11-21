@@ -22,6 +22,15 @@ public class FindAllAnagramOfGivenString {
     }
 
 
+    /**
+     * Break the input String into the length of Target's String. Because for anagram length should be same
+     * so if input = "abba" target = "ab"
+     * then sub string will be "ab","bb","ba"
+     * Then compare Substring and target are anagram or not
+     * @param input
+     * @param target
+     * @return
+     */
     public static List<Integer> findAnagrams(String input, String target) {
 
         List<Integer> ans = new ArrayList<>();
@@ -40,6 +49,15 @@ public class FindAllAnagramOfGivenString {
         return ans;
     }
 
+    /**
+     * we have 0 to 127 int value for all characters
+     * So let's take s1 and add whatever char its have
+     * Then let's take s2 and delete whatever char its have from alphabates
+     * So in the end if alphabates are 0 then its anagram else its not anagram
+     * @param s1
+     * @param s2
+     * @return
+     */
     public static boolean isAnagram(String s1, String s2)
     {
         int[] alphabates = new int[127];
