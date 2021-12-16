@@ -26,7 +26,6 @@ public class SelectionSortExample {
         for(int i =0; i<array.length;i++)
         {
             minIndex = i;
-            Arrays.sort(array);
 
             //Finding minElement everytime and assign it to minIndex
             for(int j=i+1; j<array.length; j++)
@@ -34,7 +33,6 @@ public class SelectionSortExample {
                 if(array[j]<array[minIndex])
                     minIndex=j;
             }
-
             //Once you get the minIndex swap that element with current element
             int temp = array[minIndex];
             array[minIndex]=array[i];
