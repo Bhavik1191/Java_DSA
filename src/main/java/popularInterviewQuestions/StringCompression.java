@@ -14,7 +14,6 @@ public class StringCompression {
 
         int n = compress(chars);
         System.out.println("length of new array : "+ n);
-
     }
 
 
