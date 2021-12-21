@@ -30,7 +30,6 @@ public class FindAllDuplicates {
             if(map.get(ele) > 1)
                 ans.add(ele);
         }
-
         return ans;
     }
 }

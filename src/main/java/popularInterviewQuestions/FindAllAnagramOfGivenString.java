@@ -14,8 +14,8 @@ public class FindAllAnagramOfGivenString {
      */
     public static void main(String[] args) {
 
-        String input = "aa";
-        String target = "a";
+        String input = "abba";
+        String target = "ab";
 
         System.out.println("All anagram start at indexes : "+findAnagrams(input,target));
 
