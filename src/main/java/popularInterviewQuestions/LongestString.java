@@ -11,8 +11,6 @@ public class LongestString {
         String s1 = "pwwkew";
         System.out.println("Longest unique string :" + longestr(s1));
         System.out.println("Longest unique string :" + longestr1(s1));
-
-
     }
 
 
