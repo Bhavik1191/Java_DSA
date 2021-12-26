@@ -6,6 +6,7 @@ import java.util.List;
 
 public class FindAllDuplicates {
 
+    //https://leetcode.com/problems/find-all-duplicates-in-an-array/
     public static void main(String[] args) {
 
         int[] arr = {1};

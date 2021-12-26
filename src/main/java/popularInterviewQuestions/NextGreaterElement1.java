@@ -54,5 +54,4 @@ public class NextGreaterElement1 {
         }
         return -1;
     }
-
 }
