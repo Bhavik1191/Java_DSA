@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class TestClass {
@@ -25,8 +26,8 @@ public class TestClass {
 
         int[] a = {1,2,4,5,7,9,16};
         int[] b = {2,6,8,9,10,11,12};
-        System.out.println(findSum(c,d));
-//        System.out.println(combine(a,b));
+//        System.out.println(findSum(c,d));
+        System.out.println(combine(a,b));
 
 
     }
@@ -114,6 +115,12 @@ public class TestClass {
                     k++;
                 }
             }
+
+        for (int i = 0; i < a.length; i++) {
+            a[i]=ans.get(i);
+        }
+
+        System.out.println(Arrays.toString(a));
         return ans;
     }
 }
